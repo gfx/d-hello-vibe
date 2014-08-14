@@ -1,0 +1,14 @@
+{
+  "name": "d-hello-httpserver",
+  "authors": ["Fuji, Goro"],
+  "dependencies": {
+    "vibe-d": "~>0.7.20"
+  },
+  "targetType" : "executable",
+  "buildTypes" : {
+    "unittest" : {
+      "buildOptions" : ["unittests", "debugMode"]
+    }
+  },
+  "versions": ["VibeDefaultMain"]
+}

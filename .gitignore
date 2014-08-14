@@ -1,0 +1,9 @@
+*.swp
+*~
+*.o
+
+# the execugable
+d-hello-httpserver
+
+# dub metadata
+.dub/
